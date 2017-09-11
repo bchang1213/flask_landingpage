@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>About Ninjas</title>
+<!-- linking a css style sheet -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+<!-- linking a javascript file -->
+	<script type="text/javascript" src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</head>
+<body>
+	<h1>Here is some info about Ninjas! This should be blue</h1>
+<!-- linking an image -->
+	<img src="{{ url_for('static', filename='img/ninja.jpg') }}">
+</body>
+</html>
